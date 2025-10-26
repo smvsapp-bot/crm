@@ -65,12 +65,12 @@ const Login = () => {
 
 
   return (
-    <div className="font-primary">
-      <div className="md:opacity-100 opacity-0 left-0 bottom-10 absolute h-[53%] w-[28%]">
+    <div className="font-primary h-screen w-screen justify-center items-center relative">
+      <div className="md:opacity-100 opacity-0 left-0 bottom-0 absolute h-[53%] w-[28%]">
         <img src="/images/login-1.png" />
       </div>
-      <div className="w-full h-screen ">
-        <div className="flex justify-center pt-16">
+      <div className="w-full h-full flex flex-col justify-start items-center gap-8 py-20 ">
+        <div className="flex justify-center pt-16 ">
           <img className="h-12" src="/background/A-consultant-logo.png" />
         </div>
         <div className="flex justify-center pt-6 pl-0 ml-0 rounded-lg">
@@ -127,9 +127,9 @@ const Login = () => {
                 />
               </FormGroup>
 
-              <Link to="/auth/forgot_password" className="font-primary font-light flex justify-end mr-10 mb-4 text-gray-500 hover:text-gray-700 cursor-pointer">
+              {/* <Link to="/auth/forgot_password" className="font-primary font-light flex justify-end mr-10 mb-4 text-gray-500 hover:text-gray-700 cursor-pointer">
                 Forgot Password
-              </Link>
+              </Link> */}
 
               <button
                 type="submit"
