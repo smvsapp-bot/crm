@@ -1,7 +1,5 @@
-export const baseURL = 'http://localhost:4000/api/v1'
-// export const baseURL = 'https://growmarketing.glitch.me/api/v1'
-export const rootURL = 'http://localhost:4000'
-// export const rootURL = 'https://growmarketing.glitch.me'
+export const baseURL = 'https://crm-qzya.onrender.com/api/v1'
+export const rootURL = 'https://crm-qzya.onrender.com'
 export const pakistanCities = [
   "Abbottabad",
   "Adilpur",
